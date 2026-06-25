@@ -11,7 +11,7 @@
 
 ## 技術選定（確定）
 
-- 推論: Workers AI のみ（無料枠 10,000 Neurons/日、超過分 $0.011 / 1,000 Neurons）
+- 推論: Workers AI のみ（無料枠 10,000 Neurons/日、超過分 $0.011 / 1,000 Neurons）※枠の現行値は要確認（issue #3）
 - スタック: Hono + Cloudflare Workers + Cron Triggers + D1（想定）+ Workers AI
 - 開発: Claude Code（運用ルールは後述）
 - VCS: jj（既存ワークフロー）/ GitHub `takagiyuuki`
